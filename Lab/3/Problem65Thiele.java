@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem6.pkg5thiele;
+//package problem6.pkg5thiele;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Problem65Thiele {
     public static void main(String[] args) {
       Scanner input = new Scanner (System.in);
         System.out.print("Enter 3 numbers to have them sorted least to greatest: ");
-        double num1  = input.nextInt();
+        double num1  = input.nextInt(); // JA: These need to be read as doubles nextDouble()
         double num2 = input.nextInt();
         double num3 = input.nextInt();
        

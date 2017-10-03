@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem6.pkg1thiele;
+//package problem6.pkg1thiele;
 
 import java.util.Scanner;
 
@@ -11,6 +11,8 @@ import java.util.Scanner;
  *
  * @author austinthiele
  */
+ 
+// JA: This is not compiling
 public class Problem61Thiele {
 
     /**

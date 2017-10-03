@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem516thiele;
+//package problem516thiele;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Problem516Thiele {
         int integer = input.nextInt();
         int order = 2;
         
-        while(integer/order !=1) {
+        while(integer/order !=1) { // JA: This should be >=
             if(integer%order==0) {
                 System.out.print(order + ", ");
                 integer /= order;
