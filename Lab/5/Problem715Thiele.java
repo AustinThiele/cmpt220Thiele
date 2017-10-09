@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem715thiele;
+//package problem715thiele;
 
 import java.util.Scanner;
 
@@ -32,6 +32,7 @@ public class Problem715Thiele {
 		}
 	}
 	
+	// JA: This logic doesn't work
 	public static int[] eliminateDuplicates(int[] list) {
 		boolean isDuplicate;
 		int[] duplicates = new int[list.length];
