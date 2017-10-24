@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem2.pkg5thiele;
+//package problem2.pkg5thiele;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem421;
+//package problem421;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Problem421 {
          
          String ssn = input.nextLine();
          
-         if (ssn.length() == 9) {
+         if (ssn.length() == 9) { // JA: Need to check for other things
              System.out.println( ssn + "is a valid social security number");
          }
              
