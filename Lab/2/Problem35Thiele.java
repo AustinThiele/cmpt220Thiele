@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem3.pkg5thiele;
+//package problem3.pkg5thiele;
 
 import java.util.Scanner;
 
@@ -30,14 +30,14 @@ public class Problem35Thiele {
          String future = null;
          
          switch(dayOfTheWeek){
-             case 0: today = "Sunday";
-             case 1: today = "Monday";
-             case 2: today = "Tuesday";
-             case 3: today = "Wednesday";
-             case 4: today = "Thursday";
-             case 5: today = "Friday";
-             case 6: today = "Saturday";
-             
+             case 0: today = "Sunday"; break; // JA
+             case 1: today = "Monday"; break; // JA
+             case 2: today = "Tuesday"; break; // JA
+             case 3: today = "Wednesday"; break; // JA
+             case 4: today = "Thursday"; break; // JA
+             case 5: today = "Friday"; break; // JA
+             case 6: today = "Saturday"; break; // JA
+		 } // JA    
              int futureDay = (dayOfTheWeek + numberOfDays)  % 7;
              
              if (futureDay==0)
@@ -55,8 +55,7 @@ public class Problem35Thiele {
              else if (futureDay==6)
                  future = "Saturday";
        
-                 
-         }
+                
          System.out.print("Today is " + today + " and the future day is " + future);
      
         

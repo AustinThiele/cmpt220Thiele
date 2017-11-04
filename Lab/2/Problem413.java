@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem413;
+//package problem413;
 
 import java.util.Scanner;
 
@@ -26,48 +26,38 @@ public class Problem413 {
       
           String PossibleCharacter = input.nextLine();
           
-     if (PossibleNumber == 0-9) {
-        
-        System.out.print(PossibleNumber + "is an invalid input");
-    }
-     else if (PossibleCharacter.equals("A")) {
-        
-        System.out.print("A is a vowel");
-    }
-     else if (PossibleCharacter.equals("E")) {
-        
-        System.out.print(" E is a vowel");
-    }
-     else if (PossibleCharacter.equals("I")) {
-        
-        System.out.print(PossibleCharacter+ "I is a vowel");
-    }
-     else if (PossibleCharacter.equals("O")) {
-        
-        System.out.print(PossibleCharacter+ "O is a vowel");
-    }
-     else if (PossibleCharacter.equals("U")) {
-        
-        System.out.print("U is a vowel");
-    }
-        
-     else {
-        
-        System.out.print(PossibleCharacter + " is a consonant");
-    }
+		 if (PossibleNumber == 0-9) { // JA: This is not right. You need to check the range >= '0' && <= '9'
+			
+			System.out.print(PossibleNumber + "is an invalid input");
+		}
+		 else if (PossibleCharacter.equals("A")) {
+			
+			System.out.print("A is a vowel");
+		}
+		 else if (PossibleCharacter.equals("E")) {
+			
+			System.out.print(" E is a vowel");
+		}
+		 else if (PossibleCharacter.equals("I")) {
+			
+			System.out.print(PossibleCharacter+ "I is a vowel");
+		}
+		 else if (PossibleCharacter.equals("O")) {
+			
+			System.out.print(PossibleCharacter+ "O is a vowel");
+		}
+		 else if (PossibleCharacter.equals("U")) {
+			
+			System.out.print("U is a vowel");
+		}
+			
+		 else {
+			
+			System.out.print(PossibleCharacter + " is a consonant");
+		}
           
-          
-          
-        
-        
-        
-        
-        
-        {
-            
-        }
     }
          
-    }
+ }
     
 
