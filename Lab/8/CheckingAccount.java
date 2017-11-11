@@ -9,6 +9,8 @@ package checkingaccount;
  *
  * @author austinthiele
  */
+ 
+// JA: Overdraft limit?
 public class CheckingAccount {
 
     /**
