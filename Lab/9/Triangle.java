@@ -20,6 +20,8 @@ public class Triangle extends GeometricObject{
 	
 	}
 	
+	// JA: This was supposed to check for the triangle sides and throw an exception 
+	// when they were not valid
 	public Triangle(double side1, double side2, double side3) {
 		this.side1 = side1;
 		this.side2 = side2;

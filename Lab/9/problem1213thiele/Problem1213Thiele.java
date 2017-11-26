@@ -48,9 +48,9 @@ public class Problem1213Thiele {
             ex.getMessage();
         }
 
-        System.out.printf("Characters ", characters);
-        System.out.printf("Words ", words);
-        System.out.printf("Lines ", lines);
+        System.out.printf("Characters %d", characters); // JA
+        System.out.printf("Words %d", words);
+        System.out.printf("Lines %d", lines);
 
 
     }
