@@ -1,4 +1,4 @@
 
-public class Colorable {
-
+public interface Colorable {
+	String howToColor();
 }
